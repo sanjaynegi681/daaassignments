@@ -15,7 +15,7 @@ void main()
 	}
 	printf("enter the no you want to search \n ");
 	scanf("%d",&j);
-	for(i=1;i<n;i++)
+	for(i=0;i<n;i++)
 	{
 		if(arr[i]==j)
 		{
@@ -25,11 +25,11 @@ void main()
 	}
 	if(z==j)
 	{
-		printf("no found !!!!");
+		printf("no found !!!! \n ");
 	}
 	else
 	{
-		printf("not present");
+		printf("not present \n ");
 	}
 }
 	
