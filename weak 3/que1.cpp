@@ -28,10 +28,10 @@ int main(){
             comparison++;
         }
         for(int i=0;i<n;i++)
-            out << arr[i] << " ";
-            out << endl;
-        out << "Shifts = " << shifts << endl;
-        out << "Comparisons = " << comparison << endl;
+            cout << arr[i] << " ";
+           cout << endl;
+        cout << "Shifts = " << shifts << endl;
+        cout << "Comparisons = " << comparison << endl;
         t--;
     }
-}q
+}
